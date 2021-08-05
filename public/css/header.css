@@ -1,0 +1,26 @@
+header{
+    background-color: #ef4c2b;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    
+}
+header nav ul{
+    display: flex;
+    width: 100%;
+}
+header nav ul.usuario{
+    justify-content: flex-end;
+}
+header a{
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0 15px;
+}
