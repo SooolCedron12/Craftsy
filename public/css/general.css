@@ -12,4 +12,6 @@ a{
 body{
     background-image: url('/img/bg-2.png');
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1140px;
+    margin: 0 auto;
 }

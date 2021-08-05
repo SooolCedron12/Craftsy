@@ -1,0 +1,72 @@
+.home main{
+    display: flex;
+    justify-content:space-between;
+    margin-top:30px ;
+}
+
+.home main section.productos{
+    width: 800px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.home main section.productos article{
+    width: 380px;
+    margin: 10px 0 20px;
+}
+
+.home main section.productos article img{
+    width: 100%;
+}
+
+.home main section.productos article h4{
+    margin: 10px 0;
+}
+
+.home main section.productos article a{
+    background-color: #ef4c2b;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 7px;
+    display: inline-block;
+    margin-top: 20px ;
+}
+
+.home main aside{
+    width: 320px;
+}
+
+.home main aside h3{
+    background-color: #ffffff;
+    border: 1px solid #91cbe1;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.home main aside section.tutoriales article{
+   border: 1px solid #91cbe1;
+   padding: 10px;
+   display:  flex;
+   background-color: #ffffff;
+   align-items: center;
+}
+
+.home main aside article p{
+    margin-left: 10px;
+
+}
+.home main aside section.box-publicidad{
+    margin-top: 20px;
+}
+.home main aside article.publicidad{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #91cbe1;
+     
+}
+.home main aside article.publicidad img{
+    width: 100%;
+}
