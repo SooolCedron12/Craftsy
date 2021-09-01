@@ -5,16 +5,46 @@
     width: 420px;
     margin: 0 auto;
     margin-top: 60px;
+    padding: 10px;
 }
 .login h2{
-    margin: 30px auto;
+    margin: 30px 0;
     text-align: center;
-}
-.login label{
-    margin: 10px 0;
 }
 .login .box-for{
     display: flex;
     flex-direction: column;
-
+    margin: 20px 0;
 }
+.login label{
+    margin: 10px 0;
+}
+.login input{
+    padding: 5px;
+}
+.login .box-check{
+    display: flex;
+    justify-content: flex-end;
+}
+.login .box-check label{
+    margin-left: 5px;
+    margin-top: -4px;
+}
+.login  .box-error{
+    margin: 20px 0;
+}
+.login span{
+    color: tomato;
+}
+.login button{
+    background-color: #3c8bbc;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.login button:hover{
+    background-color: #7cb8d5;
+    cursor: pointer;
+}
+
