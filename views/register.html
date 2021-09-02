@@ -1,13 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
-    <h1>Register</h1>
+<body class="register">
+    <header>
+        <div><a href="/"><img src="/img/logo.png" alt=""></a></div>
+        <nav>
+            <ul class="menu">
+            <li><a href="">smartphones</a></li>
+            <li><a href="">tablets</a></li>
+            <li><a href="">computadoras</a></li>
+        </ul>
+        <ul class="usuario">
+            <li><a href="/login">login</a></li>
+            <li><a href="/register">register</a></li>
+        </ul> 
+        </nav>
+    </header>
+    <main>
+        <div class="formulario">
+            <h2>Registrate</h2>
+            <form action="" method="POST">
+                <div class="box-form">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="ingrese tu nombre" id="nombre" name="nombre">
+                    <span class="error">Obligatorio</span>
+                </div>    
+                <div class="box-form">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="ingrese tu email" id="email" name="email">
+                    <span class="error">Obligatorio</span>
+                </div>
+                <div class="box-form">
+                    <label for="password">Contraseña</label>
+                    <input type="password" placeholder="password" id="password" name="pass">
+                    <span class="error">Obligatorio</span>
+                </div>
+                <div>
+                    <h4>Pais de nacimiento</h4>
+                    <div class="box-form">
+                        <select name="Pais" id="pais">
+                            <option value="" selected hidden>Elije tu pais...</option>           
+                            <option value="ar">Argentina</option>
+                            <option value="br">Brasil</option>
+                            <option value="cl">Chile</option>
+                            <option value="pe">Peru</option>
+                            <option value="uy">Uruguay</option>
+                        </select>
+                    </div>
+                    <div>
+                        <h4>Genero</h4>
+                        <div class="box-radio">
+                            
+                            <div class="box-radio1">
+                                <input type="radio" name="genero" id="masculino">
+                                <label for="genero">Masculino</label>
+                            </div>
+                            <div class="box-radio1">
+                                <input type="radio" name="genero" id="femenino">
+                                <label for="genero">Femenino</label>
+                            </div>
+                            <div class="box-radio1">
+                                <input type="radio" name="genero" id="noDecirlo">
+                                <label for="genero">Prefiero no decirlo</label>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <h4>Hobbies</h4>
+                        <div class="box-radio">       
+                            <div class="box-check2">
+                                <input type="checkbox" name="hobbies" id="hobbies">
+                                <label for="hobbies">Guitarra</label>
+                            </div>
+                            <div class="box-check2">
+                                <input type="checkbox" name="hobbies" id="hobbies">
+                                <label for="hobbies">Futbol</label>
+                            </div>
+                            <div class="box-check2">
+                                <input type="checkbox" name="hobbies" id="hobbies">
+                                <label for="hobbies">Tenis</label>
+                            </div>
+                            <div class="box-check2">
+                                <input type="checkbox" name="hobbies" id="hobbies">
+                                <label for="hobbies">Programacion</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Dejanos tus comentario</h4>
+                        <div class="box-form">
+                            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="term" id="term">
+                            <label for="terms">Acepto terminos y condiciones</label>
+                        </div>
+                    </div>
+                    <p>Boton con enviar con la etiqueta 'input</p>
+                    <div class="boton-input">
+                        <input  type="submit" value="Registrarme">
+                        <input type="reset" value="Cancelar">
+                    </div>
+                    <p>Boton con enviar con la etiqueta 'Boton</p>
+                    <div>
+                        <button class="btn-button">Registrarme</button>
+                        <button class="btn-button">Cancelar</button>                 
+                    </div>
+                    
+
+                        
+                </div>
+            </form>
+        </div>
+
+    </main>
 </body>
 </html>
