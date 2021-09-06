@@ -15,6 +15,9 @@
 .home main section.productos article{
     width: 380px;
     margin: 10px 0 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #acd8e6;
 }
 
 .home main section.productos article img{
